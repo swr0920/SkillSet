@@ -1,0 +1,56 @@
+======================================
+              User_Menu
+======================================
+
+CONTENTS
+
+Designed by wr.Shin
+
+--------------------------------------
+
+Menu Structure
+
+SkillSet_Menu
+   |___ Setup_Tech_inform               : TBD
+   |___ Drawing
+   |      |___Add Inst Label
+   |      |___Port Bus                  : TBD
+   |
+   |___ View
+   |      |___View Coordination
+   |
+   |___ AboutMe
+
+--------------------------------------
+
+Directory Structure
+
+${HOME}
+   |___ .cdsinit      : ~/.SkillSet/cdsinit
+   |___ .cdsenv       : ~/.SkillSet/cdsenv
+   |___ .SkillSet
+           |___ cdsenv
+           |___ cdsinit
+           |___ load_skill.il
+           |___ Menu
+           |      |___AboutMe
+           |      |___Menu.ile
+           |      |___gui_AddInstLabel.ile
+           |      |___gui_Port_Bus.ile     : TBD
+           |      |___gui_Tech_Setup.ile     : TBD
+           |      |___gui_View_Coord.ile
+           |
+           |___ Proc
+                  |___abSelectObjByName.il
+                  |___bindkey.il
+                  |___CCSkey.il
+                  |___Clear_Steiners.il
+                  |___Proc.il
+                  |___Selected_Filter.il
+                  |___toggleSnap.il
+
+--------------------------------------
+
+======================================
+              - END - 
+======================================

@@ -1,0 +1,56 @@
+
+;; Setting Valiable Common
+    ;;Enable Alt BindKey
+    ui enableMenuShortcuts boolean nil
+
+    ;;Setting Infix
+    ui infix boolean t
+
+    ;;LogFilter Accelerated Input
+    ui accelInput boolean t
+
+    ;;LogFilter Return Values from Accelerated Input
+    ui accelReturnValue boolean t
+
+    ;;LogFilter Prompt Output
+    ui promptOutput boolean t
+
+    ;;CIW Cmd Show line
+    ui ciwCmdInputLines int 10
+
+
+;; Setting Valiable Schematics
+    ;;Descend Hierarchy Immediately
+    schematic descendTarget string "use viewNameList"
+
+    ;;Display none-grid
+    schematic schGridType cyclic "none"
+
+;; Setting Valiable Layout
+    ;;Display Pin Name
+    layout displayPinNames boolean t
+
+    ;;Gravity On
+    layout gravityOn boolean t
+
+    ;;MarkNet Options
+    layout markNetThickline boolean t
+
+    ;;Display none-grid
+    layout drawDottedGridOn boolean t
+    layout drawGridOn boolean nil
+    layout dotStyleMajorGrid boolean nil
+
+    ;;Windows Position Setting
+    layoutXL ciwWindow string "((0.0 1081.0)(1920.0 1720.0))"
+    layoutXL layoutWindow string "((0.0 0.0)(1920.0 1080.0))"
+    layoutXL schematicWindow string "((0.0 1081.0)(1920.0 2160.0))"
+
+    ;;Abut Server off
+    layout abutServerOn boolean nil
+
+    ;;Open Connect RefTab
+    layoutXL openConnRefTab boolean t
+
+
+

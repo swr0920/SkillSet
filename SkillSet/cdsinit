@@ -1,0 +1,17 @@
+
+;; Calibre Load ;;
+
+if( isDir(getShellEnvVar("MGC_HOME")) then
+  MGC_HOME = getShellEnvVar("MGC_HOME")
+  Calibre_Menu = strcat(MGC_HOME "/lib/calibre.OA.skl")
+  loadi(Calibre_Menu)
+)
+
+
+;; Load skill User_Define ;;
+
+if( isFile("~/.SkillSet/load_skill.il") then
+  loadi("~/.SkillSet/load_skill.il")
+else
+  display("Check Dir. : ~/.SkillSet")
+)
