@@ -8,13 +8,23 @@ Designed by wr.Shin
 
 --------------------------------------
 
+History 
+
+2025-05-09 : v.0.2
+Comment : Add Function (gui Port Bus)
+
+2025-05-09 : v.0.1
+Comment : initial update
+
+--------------------------------------
+
 Menu Structure
 
 SkillSet_Menu
    |___ Setup_Tech_inform               : TBD
    |___ Drawing
    |      |___Add Inst Label
-   |      |___Port Bus                  : TBD
+   |      |___Port Bus                  
    |
    |___ View
    |      |___View Coordination
@@ -36,7 +46,7 @@ ${HOME}
            |      |___AboutMe
            |      |___Menu.ile
            |      |___gui_AddInstLabel.ile
-           |      |___gui_Port_Bus.ile     : TBD
+           |      |___gui_Port_Bus.ile
            |      |___gui_Tech_Setup.ile     : TBD
            |      |___gui_View_Coord.ile
            |

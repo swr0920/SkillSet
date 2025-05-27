@@ -29,7 +29,7 @@ cd ./install_SkillSet
 ##### GUI
   - gui_AddInstLabel
   - gui_View_Coord
-  - gui_Port_Bus : TBD
+  - gui_Port_Bus
   - gui_Tech_Setup : TBD
 
 Read more in the [full documentation](https://swr0920.github.io/SkillSet/).
