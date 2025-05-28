@@ -10,8 +10,11 @@ Designed by wr.Shin
 
 History 
 
+2025-05-29 : v.0.2.1
+Comment : Edited Function (gui_AddInstLabel Structure)
+
 2025-05-27 : v.0.2
-Comment : Add Function (gui Port Bus)
+Comment : Added Function (gui_Port_Bus)
 
 2025-05-09 : v.0.1
 Comment : initial update
