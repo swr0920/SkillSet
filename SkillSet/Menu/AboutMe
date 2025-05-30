@@ -10,8 +10,14 @@ Designed by wr.Shin
 
 History 
 
+2025-05-30 : v.0.2.2
+Comment : Edited Function (gui_View_Coord)
+  - Reorganized the structure
+  - bug-fix : Show warn message when the coord is empty if you click Add button.
+
 2025-05-29 : v.0.2.1
-Comment : Edited Function (gui_AddInstLabel Structure)
+Comment : Edited Function (gui_AddInstLabel)
+  - Reorganized the structure
 
 2025-05-27 : v.0.2
 Comment : Added Function (gui_Port_Bus)
