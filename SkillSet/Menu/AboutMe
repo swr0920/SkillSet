@@ -10,6 +10,11 @@ Designed by wr.Shin
 
 History 
 
+2025-06-07 : v.0.2.3
+Comment : Edited Function (gui_View_Coord)
+  - Added a Number Item in Report Field to categorize
+  - Added a AutoComplete "choose a file" when a "Get Window" is execute.
+
 2025-05-30 : v.0.2.2
 Comment : Edited Function (gui_View_Coord)
   - Reorganized the structure
