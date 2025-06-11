@@ -1,0 +1,4 @@
+docs_src/_build/*
+docs_src/_static/*
+docs_src/_templates/*
+
