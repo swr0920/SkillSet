@@ -13,9 +13,9 @@ Read more in the [full documentation](https://swr0920.github.io/SkillSet/).
 
 ### Installation
 ```bash
-tar -zxvf install_SkillSet.tar.gz
-cd ./install_SkillSet
-./install_SkillSet.csh
+git clone https://github.com/swr0920/SkillSet.git
+cd SkillSet
+csh ./install_SkillSet.csh
 ```
 
 ".cdsinit" and ".cdsinit" will be renamed to old version, with the fotmat is ".cds{env,init}\_old_{date_time}".
