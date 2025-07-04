@@ -90,4 +90,4 @@ Case 3: Comparison of Extension Paths (1-Pair vs Over 2-Pair)
    :scale: 70%
    :align: center
 
-   **After**: Pressing ``Alt + Space`` (Over 2-Pair Path)
+   **After**: Pressing ``Alt + Space`` (1-Pair Path)
