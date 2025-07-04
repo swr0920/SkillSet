@@ -72,19 +72,19 @@ Case 3: Comparison of Extension Paths (1-Pair vs Over 2-Pair)
    :scale: 70%
    :align: center
 
-   **Before**: Pressing ``Alt + Space`` (1-Pair Path)
+   **Before**: Pressing ``Alt + Space`` (Over 2-Pair Path)
 
 .. figure:: /images/4_Example/gui_Tech_Setup_path_02_after.png
    :scale: 70%
    :align: center
 
-   **After**: Pressing ``Alt + Space`` (1-Pair Path)
+   **After**: Pressing ``Alt + Space`` (Over 2-Pair Path)
 
 .. figure:: /images/4_Example/gui_Tech_Setup_path_03_before.png
    :scale: 70%
    :align: center
 
-   **Before**: Pressing ``Alt + Space`` (Over 2-Pair Path)
+   **Before**: Pressing ``Alt + Space`` (1-Pair Path)
 
 .. figure:: /images/4_Example/gui_Tech_Setup_path_04_after.png
    :scale: 70%
