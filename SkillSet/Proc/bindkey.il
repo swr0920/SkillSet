@@ -82,6 +82,15 @@
 
 ;; Bindkeys for 'Schematics'
 
+    ;;Select Left Click to <Key>Space
+    hiSetBindKey("Schematics" "<Key>space" "schSingleSelectPt()")
+
+    ;;Select Shift Left Click to Shfit<Key>Space
+    hiSetBindKey("Schematics" "Shift<Key>space" "schAddSelectPt()")
+
+    ;;Select Ctrl Left Click to Ctrl<Key>Space
+    hiSetBindKey("Schematics" "Ctrl<Key>space" "mouseSubSelectPt()")
+
     ;;Schematic and ADE -> Direct plot -> Main Form
     hiSetBindKey("Schematics" "<Key>`" "sevDirectPlot(sevSession(hiGetCurrentWindow()) 'asiDirectPlotResultsMenuCB)")
     
@@ -140,6 +149,15 @@
 
 ;; Bindkeys for 'Layout'
 
+    ;;Select Left Click to <Key>Space
+    hiSetBindKey("Layout" "<Key>space" "mouseSingleSelectPt()")
+
+    ;;Select Shift Left Click to Shfit<Key>Space
+    hiSetBindKey("Layout" "Shift<Key>space" "mouseAddSelectPt()")
+
+    ;;Select Ctrl Left Click to Ctrl<Key>Space
+    hiSetBindKey("Layout" "Ctrl<Key>space" "mouseSubSelectPt()")
+
     ;;Select by Line
     hiSetBindKey("Layout" "ShiftAlt<Key>A" "geSelectByLine() ")
 
@@ -175,8 +193,11 @@
     ;;Wire Hotkey (Shift-W)
     hiSetBindKey("Layout" "Shift<Key>w" "leHiCreateWire()" )
 
-    ;;Multi-Path Hotkey
-    hiSetBindKey("Layout" "Shift<Key>p" "leHiCreateMPP()")
+    ;;Protection Hotkey
+    hiSetBindKey("Layout" "<Key>p" "geHiSetSelProtectionEF()")
+
+    ;;Un-Protection Hotkey
+    hiSetBindKey("Layout" "Shift<Key>p" "geHiUnsetSelProtectionEF()")
 
     ;;Group Hotkey
     hiSetBindKey("Layout" "<Key>\\" "leHiCreateGroup()")
@@ -205,4 +226,8 @@
     ;;Repeat Copy HotKey
     hiSetBindKey("Layout" "Shift<Key>v" "leHiDescend( hiGetCurrentWindow() \"read\" )")
 
+    ;;Coordination HotKey
+    hiSetBindKey("Layout" "<Key>." "hiGetPoint(hiGetCurrentWindow())")
 
+    ;;Select Objects Partially Selected HotKey
+    hiSetBindKey("Layout" "<Key>j" "geSelObjectsPartiallySelected()")

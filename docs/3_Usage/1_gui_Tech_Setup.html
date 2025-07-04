@@ -35,6 +35,97 @@
             
   <section id="gui-tech-setup">
 <h1>gui_Tech_Setup<a class="headerlink" href="#gui-tech-setup" title="Link to this heading">¶</a></h1>
+<p><strong>Features</strong></p>
+<ul class="simple">
+<li><p>Metal layers can be easily configured, and selected Path objects can be quickly converted to the specified Metal layer.</p></li>
+<li><p>Metal and Via layers can be toggled visible/invisible. A toggle function is provided to show or hide all layers except the currently selected Metal.</p></li>
+<li><p>DIFF layers can be easily converted to MPP layers.</p></li>
+<li><p>Standard vias can be easily placed, and the currently selected via can be quickly replaced with a configured via.</p></li>
+</ul>
+<section id="beol">
+<h2>BEOL<a class="headerlink" href="#beol" title="Link to this heading">¶</a></h2>
+<p><strong>Layer Groups</strong></p>
+<ul class="simple">
+<li><p><strong>POLY and METAL</strong>: Layers are added in the following order — Poly, Metal1, Metal2, …, Metal7, Metal8.</p></li>
+<li><p><strong>CONT and VIA</strong>: Layers are added in the following order — Contact, Via1, Via2, …, Via7, Via8.</p></li>
+</ul>
+<p><strong>Key Bindings</strong></p>
+<ul class="simple">
+<li><p><strong>&lt;Key&gt;`</strong> : Selects the Poly layer.</p></li>
+<li><p><strong>&lt;Key&gt;1</strong> to <strong>&lt;Key&gt;8</strong> : Selects the corresponding configured Metal layer (Metal1 to Metal8).</p></li>
+<li><p><strong>Shift&lt;Key&gt;`</strong> : Changes the currently selected Path to Poly.</p></li>
+<li><p><strong>Shift&lt;Key&gt;1</strong> to <strong>Shift&lt;Key&gt;8</strong> : Changes the currently selected Path to the corresponding configured Metal layer.</p></li>
+<li><p><strong>Alt&lt;Key&gt;`</strong> : Toggles visibility of all layers except the currently selected one (based on Poly).</p></li>
+<li><p><strong>Alt&lt;Key&gt;1</strong> to <strong>Alt&lt;Key&gt;8</strong> : Toggles visibility of the grouped Metal and Via layers for the selected index.</p></li>
+</ul>
+<figure class="align-default" id="id1">
+<a class="reference internal image-reference" href="../_images/gui_Tech_Setup_01.png"><img alt="../_images/gui_Tech_Setup_01.png" src="../_images/gui_Tech_Setup_01.png" style="width: 376.0px; height: 421.6px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">BEOL Configuration</span><a class="headerlink" href="#id1" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="feol">
+<h2>FEOL<a class="headerlink" href="#feol" title="Link to this heading">¶</a></h2>
+<p><strong>Layer Groups</strong></p>
+<ul class="simple">
+<li><p><strong>NDIFF-NIMP-NWELL</strong>: Layers are added in the following order — NDIFF, NIMP, NWELL.</p></li>
+<li><p><strong>PDIFF-PIMP-PWELL</strong>: Layers are added in the following order — PDIFF, PIMP, PWELL.</p></li>
+</ul>
+<p><strong>Configuration</strong></p>
+<ul class="simple">
+<li><p>Used for configuring the MPP layer.</p></li>
+</ul>
+<figure class="align-default" id="id2">
+<a class="reference internal image-reference" href="../_images/gui_Tech_Setup_02.png"><img alt="../_images/gui_Tech_Setup_02.png" src="../_images/gui_Tech_Setup_02.png" style="width: 376.0px; height: 421.6px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">FEOL Configuration</span><a class="headerlink" href="#id2" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="mpp">
+<h2>MPP<a class="headerlink" href="#mpp" title="Link to this heading">¶</a></h2>
+<p><strong>Configuration (NTAP)</strong></p>
+<ul class="simple">
+<li><p><strong>NDIFF-CONT</strong> : Sets the size between NDIFF and CONT.</p></li>
+<li><p><strong>NDIFF-NIMP</strong> : Sets the size between NDIFF and NIMP.</p></li>
+<li><p><strong>NDIFF-NWELL</strong> : Sets the size between NDIFF and NWELL.</p></li>
+</ul>
+<p><strong>Configuration (PTAP)</strong></p>
+<ul class="simple">
+<li><p><strong>PDIFF-CONT</strong> : Sets the size between PDIFF and CONT.</p></li>
+<li><p><strong>PDIFF-PIMP</strong> : Sets the size between PDIFF and PIMP.</p></li>
+<li><p><strong>PDIFF-PWELL</strong> : Sets the size between PDIFF and PWELL.</p></li>
+</ul>
+<figure class="align-default" id="id3">
+<a class="reference internal image-reference" href="../_images/gui_Tech_Setup_03.png"><img alt="../_images/gui_Tech_Setup_03.png" src="../_images/gui_Tech_Setup_03.png" style="width: 376.0px; height: 421.6px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">MPP Configuration</span><a class="headerlink" href="#id3" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="stdvia">
+<h2>StdVia<a class="headerlink" href="#stdvia" title="Link to this heading">¶</a></h2>
+<p><strong>Layer Groups</strong></p>
+<ul class="simple">
+<li><p><strong>StdVia</strong>: Techfile ViaDefs are added in the following order — V1 (M1–M2), V2 (M2–M3), …, V7 (M7–M8), V8 (M8–M9).</p></li>
+</ul>
+<p><strong>Key Bindings</strong></p>
+<ul class="simple">
+<li><p><strong>Ctrl&lt;Key&gt;`</strong> : Creates an auto via.</p></li>
+<li><p><strong>Ctrl&lt;Key&gt;1</strong> to <strong>Ctrl&lt;Key&gt;8</strong> : Creates or replaces the selected via with the configured techfile StdVia.</p></li>
+</ul>
+<figure class="align-default" id="id4">
+<a class="reference internal image-reference" href="../_images/gui_Tech_Setup_04.png"><img alt="../_images/gui_Tech_Setup_04.png" src="../_images/gui_Tech_Setup_04.png" style="width: 376.0px; height: 421.6px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">StdVia Configuration</span><a class="headerlink" href="#id4" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
 </section>
 
 

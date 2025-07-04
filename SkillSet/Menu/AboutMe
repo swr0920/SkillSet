@@ -10,6 +10,15 @@ Designed by wr.Shin
 
 History 
 
+2025-07-04 : v.0.2.5
+Comment : Edited Function (gui_Tech_Setup)
+  - initial update
+Comment : Edited Function (Menu)
+  - Enabled a Tech_Setup in SkillSet Menu
+  - Added a TBD_IPC in SkillSet Menu
+Comment : Edited Function (bindkey)
+  - Added Bindkey (Shift-Space, Ctrl-Space, Space)
+
 2025-06-11 : v.0.2.4
 Comment : Edited Function (gui_AddInstLabel)
   - bug-fix : included not only "drawing" but also "Layer purpose"

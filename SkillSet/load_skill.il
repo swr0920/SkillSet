@@ -8,10 +8,10 @@ else
 ) ; if-else
 
 ;; Menu load
-if( isFile( "~/.SkillSet/Menu/Menu.il" )  then
-  loadi( "~/.SkillSet/Menu/Menu.il" )
-  display("load Menu.il \n")
+if( isFile( "~/.SkillSet/Menu/Menu.ile" )  then
+  loadi( "~/.SkillSet/Menu/Menu.ile" )
+  display("load Menu.ile \n")
 else
-  display("Not exist Menu.il \n")
+  display("Not exist Menu.ile \n")
 ) ; if-else
 
