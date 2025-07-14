@@ -10,6 +10,10 @@ Designed by wr.Shin
 
 History 
 
+2025-07-14 : v.0.2.6
+Comment : Added Function (gui_Tech_Setup)
+  - Added a MPP offset margin ( interval : width <=1 , 1<width<=2 , width>2 )
+
 2025-07-04 : v.0.2.5
 Comment : Edited Function (gui_Tech_Setup)
   - initial update
