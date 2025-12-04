@@ -10,6 +10,15 @@ Designed by wr.Shin
 
 History 
 
+2025-12-01 : v.0.2.7
+Comment : Edited Function (gui_Tech_Setup)
+  - bug-fixed : Cannot load a environment variable $CDSHOME which is not reserved.
+                Edited from [ getShellEnvVar("CDSHOME") ] to [ cdsGetInstPath() ]
+Comment : Edited Function (cdsinit)
+  - bug-fixed : Cannot load a environment variable $MGC_HOME which is not reserved.
+                Edited from [ isDir(getShellEnvVar("MGC_HOME") ] 
+                       to [ eval(getShellEnvVar("MGC_HOME")) && isDir(getShellEnvVar("MGC_HOME") ]
+
 2025-07-14 : v.0.2.6
 Comment : Added Function (gui_Tech_Setup)
   - Added a MPP offset margin ( interval : width <=1 , 1<width<=2 , width>2 )
